@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import axios from 'axios';
 
 // Create a Socket.IO client
-const socket = io('http://localhost:4000');
+const socket = io();
 
 // Create an Axios instance with base URL
 const api = axios.create({
